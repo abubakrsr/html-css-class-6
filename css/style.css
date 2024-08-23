@@ -1,0 +1,205 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-style: normal;
+}
+
+.ctn{
+	width: 90%;
+	margin: 0 auto;
+}
+
+header{
+background-color: lightskyblue;
+min-height: 100px;
+overflow: hidden;
+border-bottom: 2px solid orangered ;
+}
+
+.logo{
+display: inline-block;
+color: darkblue;
+font-size: 40px;
+margin: 30px 63px ;
+}
+
+.logo span{
+	color: orangered;
+}
+
+
+.navul{
+float: right;
+ margin: -62px 25px;
+}
+
+.navul li{
+	display: inline-block;
+	letter-spacing: 2px;
+
+}
+
+.navul a{
+	text-decoration: none;
+	color: white;
+	font-size: 22px;
+   
+	margin-right: 61px;
+
+}
+
+.active{
+	color: darkblue;	
+}
+
+.heading{
+	text-align: center;
+	margin-top: 30px;
+	letter-spacing: 10px;
+	border-bottom: 2px solid black;
+}
+
+/*contact slide starts*/
+
+.icons{
+	margin-top: 50px;
+}
+
+.icons li{
+
+list-style: none;
+margin-top: 20px;
+font-size: 30px;
+
+}
+
+.icons a{
+	text-decoration: none;
+	color: black;
+}
+
+#yt {
+color: red;
+}
+
+
+#tw{
+color: royalblue;
+}
+
+#fb{
+color: darkblue;
+}
+
+/*contact slide ends*/
+
+/*index*/
+
+.format{
+	margin-top: 50px;
+}
+
+.format p{
+	text-align: justify;
+}
+
+.descrip{
+	font-style: normal;
+	margin-top: 50px;
+}
+
+.descrip dl{
+	margin-top: 10px ;
+
+}
+
+#bgcl{
+margin-top: 15px;
+color: black;
+
+width: 700px;
+padding: 15px;
+border: 1px solid black;
+
+
+}
+
+.op{
+	background-color: green;
+	color: white;
+}
+
+.op1{
+	background-color: lightgray;
+}
+
+.op2{
+	background-color: lightgoldenrodyellow;
+}
+
+.op3{
+	background-color: lightblue;
+}
+
+
+/*#bgimg{
+	margin-top: 50px;
+	background-image: url();
+	min-height: 500px;
+}*/
+
+#border h2{
+	margin: 20px 0;
+}
+
+.b1{
+border: 1px dashed darkred;
+}
+
+.b2{
+border-bottom: 2px groove darkblue;
+}
+
+.b3{
+border: 2px solid purple;
+border-radius: 10px;
+padding: 5px;
+}
+
+.b4{
+border-left: 4px solid blue;
+background-color: lightblue;
+padding: 10px;
+margin-right: inherit;
+}
+
+footer{
+	margin-top: 50px;
+	background-color: lightskyblue;
+	height: 50px;
+
+border-top: 2px dashed orangered;
+}
+
+.foot{
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	padding-top: 12px;
+	color: darkblue;
+
+
+}
+
+.foot a{
+	font-size: 18px;
+	text-decoration: none;
+	padding-left: 2px;
+	color: darkblue;
+}
+
+.foot span{
+	color: orangered;
+	padding-right: 5px;
+}
